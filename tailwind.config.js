@@ -10,6 +10,9 @@ module.exports = {
       'hd': '1680px',
     },
     extend: {
+    fontSize : {
+      '10' : '10px',
+    },
       colors: {
         'cream': '#ECE7E1',
         'dark' : '#0A0A0A',
