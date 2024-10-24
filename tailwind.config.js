@@ -1,5 +1,9 @@
-module.exports = {
-  content: ["./*.{html,js}"],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     screens: {
       'xs': '480px',
@@ -10,9 +14,9 @@ module.exports = {
       'hd': '1680px',
     },
     extend: {
-    fontSize : {
-      '10' : '10px',
-    },
+      // fontSize : {
+      //   '10' : '10px',
+      // },
       colors: {
         'cream': '#ECE7E1',
         'dark' : '#0A0A0A',
